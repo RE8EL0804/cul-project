@@ -674,6 +674,7 @@ progress {
   margin-top: calc(-1 * var(--bs-gutter-y));
   margin-right: calc(-0.5 * var(--bs-gutter-x));
   margin-left: calc(-0.5 * var(--bs-gutter-x));
+  justify-content: space-around;
 }
 .row > * {
   flex-shrink: 0;
@@ -7838,7 +7839,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #e6e6e6 !important;
 }
 
 .bg-dark {
